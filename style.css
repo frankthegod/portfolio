@@ -1,5 +1,24 @@
 h1 {
-    color: blue;
+    color: rgb(255, 136, 0);
     font-family: Arial, sans-serif;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(147, 0, 0, 0.5);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 228, 195);
+}
+button {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 136, 0);
+    box-shadow: 2px 2px 4px rgba(147, 0, 0, 0.5);
+}
+button a:focus {
+  outline: 2px solid yellow;
+}
+button:hover {
+  background-color: khaki;
+  transform: scale(1.1);
 }
