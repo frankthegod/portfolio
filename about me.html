@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>About Reece Haskell</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="margin-top: 60px;">About me</h1>
-    <div class ="mepic">
-    <img src="pic/69623.jpg">
-    </div>
-    </body>
+
+    <nav style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; text-align: center; background-color: white; padding: 10px 0;">
+        <ul style="list-style-type: none; display: inline-flex; margin: 0; padding: 0;">
+            <li style="margin: 0 10px;"><button onclick="location.href='home.html'">Home</button></li>
+            <li style="margin: 0 10px;"><button onclick="location.href='about_me.html'">About me</button></li>
+            <li style="margin: 0 10px;"><button onclick="location.href='project_1.html'">Project 1</button></li>
+            <li style="margin: 0 10px;"><button onclick="location.href='project_2.html'">Project 2</button></li>
+        </ul>
+    </nav>
+
+    <main style="margin-top: 80px; text-align: center;">
+        <h1>About Me</h1>
+        
+        <div class="mepic">
+            <img src="pic/69623.jpg" alt="Reece Haskell" style="max-width: 300px; height: auto;">
+        </div>
+
+        <section class="bio">
+            <p>Hi, I'm <strong>Reece Haskell</strong>. I was born in Cheyenne, Wyoming.</p>
+            <h3>Interests & Hobbies</h3>
+            <ul style="list-style: none; padding: 0;">
+                <li>Playing Guitars</li>
+                <li>3D Printing</li>
+                <li>Snowboarding</li>
+            </ul>
+        </section>
+    </main>
+
 </body>
 </html>
-
-<nav style="position: fixed; top: 0; width: 100%; z-index: 1000; text-align: center;">
-    <ul style="list-style-type: none; display: inline-flex; padding: 0;">
-        <li style="margin-right: 20px;"><button onclick="location.href='home.html'">Home</button></li>
-        <li style="margin-right: 20px;"><button onclick="location.href='about me.html'">About me</button></li>
-        <li style="margin-right: 20px;"><button onclick="location.href='project 1.html'">Project 1</button></li>
-        <li style="margin-right: 20px;"><button onclick="location.href='project 2.html'">Project 2</button></li>
-    </ul>
-</nav>
